@@ -1,5 +1,7 @@
 // src/pages/Home.js
 import React from 'react';
+import Slider from '../components/Slider';
+
 import './Home.css';
 
 const Home = () => {
@@ -7,16 +9,51 @@ const Home = () => {
         <div className="home-container">
             <div className="container">
                 <div className="content-container">
-                    {/* Contenido del contenedor blanco */}
+
                     <h2>LEARN SPANISH WITH THE TWINS</h2>
-                    <h1>Este es un texto de ejemplo dentro del contenedor blanco.</h1>
-                    <button>resources</button>
-                </div>   
-            </div>
-            <div clasName = "resources-container">
-            
+                    <h1 style={{ color: '#AD1519' }}>Learn&nbsp;&nbsp;and&nbsp;&nbsp;sound</h1>
+                    <h1 style={{ color: '#FABD00' }}> like a real</h1>
+                    <h1 style={{ color: '#AD1519' }}>spanish&nbsp;&nbsp;&nbsp;speaker.</h1>
+                    <button>RESOURCES</button>
+                </div>
             </div>
 
+
+            <div className="resources-container">
+                <div className="title-container">
+                    <h1 >Resources</h1>
+                </div>
+                <Slider />
+            </div>
+            <div className="podcast-container">
+                <div className="title-container">
+                    <h1 >Podcast</h1>
+                </div>
+
+                <div className='container'>
+                    <div className='podcast-content'>
+                        <h1>WELCOME TO OUR PODCAST</h1>
+                        <p>Listen to our podcast and learn Spanish with us. We will teach you how to speak Spanish like a native speaker. Lets Go!!!</p>
+                        <button>Go To Podcast</button>
+                    </div>
+                </div>
+            </div>
+            <div className='contactUs-container'>
+                <div className='title-container'>
+                    <h1>Contact Us</h1>
+                </div>
+                <div className='imagecontactUs-container'>
+                    <div className='contactUs-content'>
+                        <p>We are always happy to hear from our listeners. If you have any questions, comments, or suggestions, please feel free to contact us.</p>
+                        <a href="mailto:info@ejemplo.com">ContactUs@correo.com</a>
+                        <p>You want to contact us quickly, use the following shortcut</p>
+                        <button>Contact Us</button>
+                    </div>
+                    <div className='contactUs-image'>
+                        <img src= 'https://www.programaradialanalizando.com/wp-content/uploads/2023/03/HmCSxT74UDqTKNfM1KgLmRCrjrut4TbkoiEBrPrX.png' alt='contactUs' width='80%' height='80%'  />
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

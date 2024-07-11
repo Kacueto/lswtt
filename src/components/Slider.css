@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff; 
+}
+
+.container__slider {
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+    
+}
+
+input[type=radio] {
+    display: none;
+}
+
+.container-slider {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    max-height: 600px;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    position: absolute;
+    
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    
+
+}
+
+.card-item {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card-1 {
+    background: #FFE9D0;
+    
+}
+.card-1 h2 {
+    color: #fa6f38;
+    padding-left: 3rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    font-size: 1,3rem;
+    font-weight: 80;
+}
+
+.card-1 h1 {
+    color: #000000;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    
+}
+.card-1 p {
+    color: #8a8a8a;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 25rem;
+    font-weight: 100;   
+    line-height: 1.5;
+
+    
+    
+}
+.card-1 button {
+    width: 7rem;
+    height: 3rem;
+    background-color: #fa6f38;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    cursor: pointer;
+}
+.card-2 {
+    background: #BBE9FF;
+}
+.card-2 h2 {
+    color: #27baff;
+    padding-left: 3rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    font-size: 1,3rem;
+    font-weight: 80;
+}
+
+.card-2 h1 {
+    color: #000000;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    
+}
+.card-2 p {
+    color: #8a8a8a;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 25rem;
+    font-weight: 100;   
+    line-height: 1.5;
+
+    
+    
+}
+.card-2 button {
+    width: 7rem;
+    height: 3rem;
+    background-color: #27baff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    cursor: pointer;
+}
+
+.card-3 {
+    background: #B1AFFF;
+}
+.card-3 h2 {
+    color: #605bfa;
+    padding-left: 3rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    font-size: 1,3rem;
+    font-weight: 80;
+}
+
+.card-3 h1 {
+    color: #000000;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    
+}
+.card-3 p {
+    color: #8a8a8a;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 25rem;
+    font-weight: 100;   
+    line-height: 1.5;
+
+    
+    
+}
+.card-3 button {
+    width: 7rem;
+    height: 3rem;
+    background-color: #605bfa;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    cursor: pointer;
+}
+
+#item-1:checked ~ .cards #selector-1,
+#item-2:checked ~ .cards #selector-2,
+#item-3:checked ~ .cards #selector-3 {
+    transform: translateX(0) scale(1);
+    z-index: 1;
+    opacity: 1;
+}
+
+#item-2:checked ~ .cards #selector-1,
+#item-1:checked ~ .cards #selector-3,
+#item-3:checked ~ .cards #selector-2 {
+    transform: translateX(-40%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
+}
+
+#item-3:checked ~ .cards #selector-1,
+#item-1:checked ~ .cards #selector-2,
+#item-2:checked ~ .cards #selector-3 {
+    transform: translateX(40%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
+}

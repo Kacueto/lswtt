@@ -13,10 +13,9 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #ffe8cd;
-    box-shadow: #ff961e 0px 0px 5px;
+    background-color: #ffffff;
+    box-shadow: #ffe4c6 0px 0px 5px;
     align-items: center;
-    
     z-index: 1000; /* Asegúrate de que el navbar esté por encima de otros elementos */
 }
 
@@ -73,7 +72,6 @@
         position: absolute;
         top: 53px; /* Ajusta este valor según la altura del navbar */
         left: 0;
-        background-color: #ffe8cd;
         z-index: 999;
         text-align: center;
     }

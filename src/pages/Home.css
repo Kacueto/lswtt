@@ -1,75 +1,171 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:  'Barlow', 'sans-serif';
 }
 
 .home-container {
     width: 100%;
     height: 100vh;
-    display: flex;
+    display: grid;
     justify-content: center;
-    align-items: center;
-    background-color: #ffe8cd;
-    margin-top: 24px;
+    padding-top: 20px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 60px;
+
 }
 
 .container {
-    position: relative;
-    width: 98%;
-    height: 80%;
+    width: 83rem;
+    height: 34rem;
     /*background-image: url('../utils/image.png'); */
-    background-color: red;
+    background-color: #FFE9D0;
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 30px;
+    padding: 2.5rem;
+    align-items: center;
+    padding-left: 6rem;
+    margin-bottom: 2rem;
 }
 
 .content-container {
-    position: absolute;
-    left: 7%;
-    width: 35%;
-    height: 75%;
+    width: 28rem;
+    height: 28rem;
     background-color: white;
     background-size: cover;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    background-position: center;
     border-radius: 12px;
 }
 
 .content-container h2 {
     font-size: 0.8rem;
-    font-weight: 700;
-    position: absolute;
-    top: 30px;
-    padding: 5%;
+    font-weight: 200;
+    padding: 2.5rem;
+    color: #fa6f38;
     
 }
-
 .content-container h1 {
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: 700;
-    position: absolute;
-    left: 6.7%;    
-    top: 90px;
+    padding-left: 1rem;
 }
+
 .content-container button {
-    position: absolute;
-    left: 57%;
-    top: 70%;
-    width: 150px;
-    height: 50px;
-    background-color: #ff961e;
+    width: 7rem;
+    height: 3rem;
+    background-color: #fa6f38;
     color: white;
     border: none;
-    border-radius: 12px;
-    font-size: 1rem;
-    font-weight: 700;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    margin-left: 18rem;
     cursor: pointer;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container h1 {
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+}
+
+.podcast-content {
+    width: 28rem;
+    height: 28rem;
+    background-color: white;
+    background-size: cover;
+    border-radius: 12px;
+    margin-left: 43rem;
+}
+
+.podcast-content h1 {
+    font-size: 0.8rem;
+    font-weight: 200;
+    padding: 2.5rem;
+    color: #fa6f38;
+}
+
+.podcast-content p {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 2rem;
+    margin-right: 5rem;
+}
+
+.podcast-content button {
+    width: 7rem;
+    height: 3rem;
+    background-color: #fa6f38;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-left: 18rem;
+    cursor: pointer;
+}
+
+.imagecontactUs-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 7rem;
+}
+.contactUs-content {
+    width: 28rem;
+    height: 28rem;
+    background-color: white;
+    background-size: cover;
+    border-radius: 12px;
+    
+    
+}
+.contactUs-content button {
+    width: 7rem;
+    height: 3rem;
+    background-color: #fa6f38;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-left: 18rem;
+    cursor: pointer;
+}
+
+.imagecontactUs-container {
+    display: flex;
+    
+}
+.contactUs-content p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-left: 2rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.contactUs-content a {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-left: 2rem;
+    margin-right: 5rem;
+    
+    color: #fa6f38;
+    text-decoration: none;
 }
