@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:  'Barlow', 'sans-serif';
-}
+
 
 .home-container {
     width: 100%;
@@ -21,7 +16,7 @@
     width: 83rem;
     height: 34rem;
     /*background-image: url('../utils/image.png'); */
-    background-color: #FFE9D0;
+    background-color: #AD1519;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -43,26 +38,26 @@
 
 .content-container h2 {
     font-size: 0.8rem;
-    font-weight: 200;
+
     padding: 2.5rem;
-    color: #fa6f38;
+    color: #FABD00;
     
 }
 .content-container h1 {
     font-size: 3rem;
-    font-weight: 700;
+    
     padding-left: 1rem;
 }
 
 .content-container button {
     width: 7rem;
     height: 3rem;
-    background-color: #fa6f38;
+    background-color: #FABD00;
     color: white;
     border: none;
     border-radius: 8px;
     font-size: 0.8rem;
-    font-weight: 500;
+    
     margin-top: 3rem;
     margin-left: 18rem;
     cursor: pointer;
@@ -75,7 +70,7 @@
 }
 
 .title-container h1 {
-    font-weight: 300;
+    
     margin-bottom: 2.5rem;
     margin-top: 1rem;
 }
@@ -91,27 +86,26 @@
 
 .podcast-content h1 {
     font-size: 0.8rem;
-    font-weight: 200;
+    
     padding: 2.5rem;
-    color: #fa6f38;
+    color: #FABD00;
 }
 
 .podcast-content p {
     font-size: 2rem;
-    font-weight: 700;
-    padding-left: 2rem;
+    
+    padding-left: 1rem;
     margin-right: 5rem;
 }
 
 .podcast-content button {
     width: 7rem;
     height: 3rem;
-    background-color: #fa6f38;
+    background-color: #FABD00;
     color: white;
     border: none;
     border-radius: 8px;
     font-size: 0.8rem;
-    font-weight: 500;
     margin-top: 2rem;
     margin-left: 18rem;
     cursor: pointer;
@@ -137,12 +131,12 @@
 .contactUs-content button {
     width: 7rem;
     height: 3rem;
-    background-color: #fa6f38;
+    background-color: #FABD00;
     color: white;
     border: none;
     border-radius: 8px;
     font-size: 0.8rem;
-    font-weight: 500;
+    
     margin-top: 2rem;
     margin-left: 18rem;
     cursor: pointer;
@@ -154,7 +148,7 @@
 }
 .contactUs-content p {
     font-size: 1.4rem;
-    font-weight: 700;
+    
     padding-left: 2rem;
     margin-right: 5rem;
     margin-top: 2rem;
@@ -162,10 +156,10 @@
 }
 .contactUs-content a {
     font-size: 1.4rem;
-    font-weight: 700;
+    
     padding-left: 2rem;
     margin-right: 5rem;
     
-    color: #fa6f38;
+    color: #FABD00;
     text-decoration: none;
 }

@@ -9,16 +9,13 @@ const Home = () => {
         <div className="home-container">
             <div className="container">
                 <div className="content-container">
-
-                    <h2>LEARN SPANISH WITH THE TWINS</h2>
+                    <h2>SPANISH CLUB WITH THE TWINS.</h2>
                     <h1 style={{ color: '#AD1519' }}>Learn&nbsp;&nbsp;and&nbsp;&nbsp;sound</h1>
                     <h1 style={{ color: '#FABD00' }}> like a real</h1>
                     <h1 style={{ color: '#AD1519' }}>spanish&nbsp;&nbsp;&nbsp;speaker.</h1>
                     <button>RESOURCES</button>
                 </div>
             </div>
-
-
             <div className="resources-container">
                 <div className="title-container">
                     <h1 >Resources</h1>
@@ -29,7 +26,6 @@ const Home = () => {
                 <div className="title-container">
                     <h1 >Podcast</h1>
                 </div>
-
                 <div className='container'>
                     <div className='podcast-content'>
                         <h1>WELCOME TO OUR PODCAST</h1>
@@ -50,7 +46,7 @@ const Home = () => {
                         <button>Contact Us</button>
                     </div>
                     <div className='contactUs-image'>
-                        <img src= 'https://www.programaradialanalizando.com/wp-content/uploads/2023/03/HmCSxT74UDqTKNfM1KgLmRCrjrut4TbkoiEBrPrX.png' alt='contactUs' width='80%' height='80%'  />
+                        <img src='https://www.programaradialanalizando.com/wp-content/uploads/2023/03/HmCSxT74UDqTKNfM1KgLmRCrjrut4TbkoiEBrPrX.png' alt='contactUs' width='80%' height='80%' />
                     </div>
                 </div>
             </div>
