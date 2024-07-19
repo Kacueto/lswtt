@@ -20,7 +20,7 @@ function App() {
         </body>
         
     </Router>
-    <Footer />
+    
     </div>
   );
 }

@@ -1,6 +1,7 @@
 // src/pages/Home.js
 import React from 'react';
 import Slider from '../components/Slider';
+import Footer from '../components/Footer';
 
 import './Home.css';
 
@@ -50,6 +51,10 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+           
+                <Footer/>
+            
+            
         </div>
     );
 }

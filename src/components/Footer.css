@@ -1,0 +1,15 @@
+.footer-margin{
+    height: 26rem;
+}
+.footer-container{
+    width: 100%rem;
+    height: 25rem;
+    background-color: #AD1519;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    
+    
+}
