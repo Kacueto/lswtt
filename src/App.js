@@ -4,7 +4,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Podcast from './pages/Podcast';
-import Footer from './components/Footer';
+import AboutUs from './pages/AboutUs'
+
+
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
           <Routes>
             <Route path="/" exact element={<Home />} />  
             <Route path="/Podcast" element={<Podcast />} />
-          </Routes>  
+            <Route path= "/AboutUs" element={<AboutUs/>}/>
+          </Routes> 
+           
         </body>
         
     </Router>
