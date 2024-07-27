@@ -7,7 +7,7 @@
     background-color: #AD1519;
     background-size: cover;
     background-position: center;
-    display: block;
+    
     border-radius: 30px;
     
     
@@ -96,10 +96,14 @@
     
     
 }
+.footer-content-bottom{
+    color: #ffffff;
+}
 .copyright{
     
     margin-right: 20rem;
 }
+
 
 .footer-content-bottom-right{
     display: flex;

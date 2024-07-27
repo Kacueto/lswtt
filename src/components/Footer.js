@@ -4,7 +4,6 @@ import useHandleNavigation from '../hooks/useHandleNavigation';
 import useScrollToTop from '../hooks/useScrollToTop';
 import './Footer.css';
 
-// Asegúrate de importar la configuración de Font Awesome
 import '../utils/fontAwasomeConfigure';
 
 const Footer = () => {
