@@ -52,3 +52,29 @@
     padding-left: 6rem;
     margin-bottom: 2rem;
 }
+.aboutus-container1-button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #ffffff;
+    color: #AD1519;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+}
+.aboutus-container1-button1{
+    width: 10rem;
+    height: 3rem;
+    background-color: #ffffff;
+    color: #AD1519;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 6.5rem;
+}

@@ -87,18 +87,16 @@
 }
 
 .footer-content-bottom{
-    position : relative;
+    
     display: flex;
-    align-items: flex-start;
-    top: 20%;
-    left: 9%;
+    padding-top: 6rem;
+    padding-left:7rem;
+    color: #000000;
 
     
     
 }
-.footer-content-bottom{
-    color: #ffffff;
-}
+
 .copyright{
     
     margin-right: 20rem;

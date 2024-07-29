@@ -23,7 +23,7 @@ const Navbar = () => {
                 <Link to="/Courses" className="navbar-item" onClick={toggleMenu}>Courses</Link>
                 <Link to="/Podcast" className="navbar-item" onClick={toggleMenu}>Podcast</Link>
                 <Link to="/AboutUs" className="navbar-item" onClick={toggleMenu}>About Us</Link>
-                <Link to="/Contact" className="navbar-item" onClick={toggleMenu}>Contact Us</Link>
+                <Link to="/ContactUs" className="navbar-item" onClick={toggleMenu}>Contact Us</Link>
                 <Link to="/Donations" className="navbar-item" onClick={toggleMenu}>Donations</Link>
             </div>
             <div className={`hamburger ${isOpen ? 'is-active' : ''}`} onClick={toggleMenu}>

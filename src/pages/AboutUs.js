@@ -1,16 +1,21 @@
 import React from "react";
 import './AboutUs.css';
 import Footer from '../components/Footer'
+import useHandleNavigation from '../hooks/useHandleNavigation';
 
 const AboutUs = () => {
+    const handleNavigation = useHandleNavigation();
     return (
+        
         <div className="homeaboutus-container">
             <div className="aboutus-container1">
                 <h1>What is this<br></br> club?</h1>
                 <div className="aboutus-container1-content">
                     <p>
-                    We are twins and the purpose of this club is to teach Spanish to everyone who decides to be part of this club. We have a lot of experience in teaching and we have a lot of resources to help you learn Spanish in a fun and interactive way. We have courses, podcasts, and a lot of other resources that will help you improve your Spanish skills. So why wait? Join Spanish Club With The Twins today and start your journey to fluency!
+                    We are twins and the purpose of this club is to teach Spanish to everyone who decides to be part of this club.
                     </p>
+                    <button  className="aboutus-container1-button" onClick={() => handleNavigation('/ContactUs')}>Contact Us</button>
+                    <button className="aboutus-container1-button1">Know the twins</button>
                 </div>
             </div>
             <div className="aboutus-container">
