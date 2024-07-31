@@ -28,7 +28,7 @@
 }
 
 .content-container {
-    width: 28rem;
+    width: 50rem;
     height: 28rem;
     background-color: white;
     background-size: cover;
@@ -59,10 +59,18 @@
     font-size: 0.8rem;
     
     margin-top: 3rem;
-    margin-left: 18rem;
+    margin-left: 19rem;
     cursor: pointer;
 }
 
+
+.image-container img {
+    width: 105%;
+    height: 105%;
+    border-radius: 12px;
+    padding-left: 7rem;
+    padding-bottom: 4.3rem;
+}
 .title-container {
     display: flex;
     justify-content: center;

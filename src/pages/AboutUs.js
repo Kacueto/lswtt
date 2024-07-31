@@ -18,7 +18,9 @@ const AboutUs = () => {
                     <button className="aboutus-container1-button1">Know the twins</button>
                 </div>
             </section>
-            
+            <section className="Images-container">
+                
+            </section>
             <section className="aboutus-container">
                 <h1>The twins and their leanguages</h1>
                 <p>Hello everyone, we are the twins Christian and Camilo Ochoa. We were born in Córdoba (Bolivar) in north Colombia.  We are political scientists Graduated with an emphasis in public policies from the University del Norte Barranquilla. Since, we were children we were fascinated by the cultures of the world and little by little we noticed that our fascination grew more and more to the point of mastering 5 languages: Spanish (Native lenguage), English, Portuguese, German and Italian.

@@ -2,6 +2,7 @@
 import React from 'react';
 import Slider from '../components/Slider';
 import Footer from '../components/Footer';
+import twins3 from '../utils/TWINS/twins3.png';
 
 import './Home.css';
 
@@ -15,6 +16,10 @@ const Home = () => {
                     <h1 style={{ color: '#FABD00' }}> like a real</h1>
                     <h1 style={{ color: '#AD1519' }}>spanish&nbsp;&nbsp;&nbsp;speaker.</h1>
                     <button>RESOURCES</button>
+
+                </div>
+                <div className="image-container">
+                    <img src={twins3} alt="twins" />
                 </div>
             </div>
             <div className="resources-container">

@@ -32,7 +32,7 @@
     margin-left: 43rem;
 }
 .aboutus-container1-content p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #ffffff;
     padding: 2.5rem;
     padding-top: 4.5rem;
@@ -53,7 +53,7 @@
     border-radius: 12px;
     
     cursor: pointer;
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-left: 2.5rem;
 }
 .aboutus-container1-button1{
@@ -64,20 +64,32 @@
     border: none;
     border-radius: 12px;
     cursor: pointer;
-    margin-top: 2rem;
+    
     margin-left: 6.5rem;
 }
 .aboutus-container{
-    width: 83rem;
-    height: 34rem;
+    width: 43rem;
+    height: 54rem;
     background-color: #ffffff;
     background-size: cover;
     background-position: center;
-    display: flex;
+    display: block;
     border-radius: 30px;
-    padding: 2.5rem;
+    margin-left: 20rem;
     align-items: center;
-    padding-left: 6rem;
+    
     margin-bottom: 2rem;
 }
-
+.aboutus-container h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #AD1519;
+    padding: 2.5rem;
+    padding-top: 4.5rem;
+}
+.aboutus-container p{
+    font-size: 1.5rem;
+    color: #AD1519;
+    padding: 2.5rem;
+    
+}
