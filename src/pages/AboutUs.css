@@ -38,20 +38,12 @@
     padding-top: 4.5rem;
 
 }
-
-.aboutus-container{
-    width: 83rem;
-    height: 34rem;
-    background-color: #AD1519;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    border-radius: 30px;
-    padding: 2.5rem;
-    align-items: center;
-    padding-left: 6rem;
-    margin-bottom: 2rem;
+.aboutus-container1-content button {
+    font-size: 1.3rem;
+    font-weight: 400;
 }
+
+
 .aboutus-container1-button{
     width: 10rem;
     height: 3rem;
@@ -59,8 +51,7 @@
     color: #AD1519;
     border: none;
     border-radius: 12px;
-    font-size: 1.5rem;
-    font-weight: 700;
+    
     cursor: pointer;
     margin-top: 2rem;
     margin-left: 2.5rem;
@@ -72,9 +63,21 @@
     color: #AD1519;
     border: none;
     border-radius: 12px;
-    font-size: 1.5rem;
-    font-weight: 700;
     cursor: pointer;
     margin-top: 2rem;
     margin-left: 6.5rem;
 }
+.aboutus-container{
+    width: 83rem;
+    height: 34rem;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    border-radius: 30px;
+    padding: 2.5rem;
+    align-items: center;
+    padding-left: 6rem;
+    margin-bottom: 2rem;
+}
+
