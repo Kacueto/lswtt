@@ -1,7 +1,8 @@
-.contact-us-container{
+.donations-container{
     width: 100%;
     height: auto;
-    display: inline-flex;
+    display: grid;
+    justify-content: center;
     background-color: #ffffff;
     position: absolute;
     top: 80px;

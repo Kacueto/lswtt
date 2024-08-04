@@ -5,10 +5,10 @@
     height: 100vh;
     display: grid;
     justify-content: center;
-    padding-top: 20px;
+    
     background-color: #ffffff;
     position: absolute;
-    top: 60px;
+    top: 80px;
 
 }
 
@@ -73,7 +73,7 @@
 }
 .content-container button:hover {
     background-color: #FABD00;
-    color: #AD1519;
+    color: #ffffff;
     
 }
 .image-container {
@@ -140,7 +140,7 @@
 }
 .podcast-content button:hover {
     background-color: #FABD00;
-    color: #AD1519;
+    color: #ffffff;
     
 }
 
@@ -175,8 +175,9 @@
     cursor: pointer;
 }
 
-.imagecontactUs-container {
-    display: flex;
+.contactUs-content button:hover {
+    background-color: #AD1519;
+    color: white;
     
 }
 .contactUs-content p {

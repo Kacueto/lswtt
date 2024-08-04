@@ -26,7 +26,7 @@ function App() {
     }, [index]);
 
     return (
-        <section className='section'>
+        <section className='sectionSlider'>
             <div className="title" >
                 <h2>
                     <span>/</span>Resources
