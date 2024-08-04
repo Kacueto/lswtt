@@ -3,7 +3,7 @@ import './ContactUs.css';
 const ContactUs = () => {
     return(
         <div className="contact-us-container">
-           <h1>Tell us what topic you would like to appear in the next video:</h1>
+           <h1>Tell us what topic you would like to appear in the next video</h1>
             <section className="contact-us">
                 
                 <form>  
