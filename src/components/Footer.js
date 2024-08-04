@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import useHandleNavigation from '../hooks/useHandleNavigation';
 import useScrollToTop from '../hooks/useScrollToTop';
 import './Footer.css';
-
+import Logo from '../utils/logo.png';
 import '../utils/fontAwasomeConfigure';
 
 const Footer = () => {
@@ -15,7 +15,7 @@ const Footer = () => {
             <div className='footer-container'>
                 <div className='footer-content-top'>
                     <div className='footer-content-top-left'>
-                        <h1>Logo</h1>
+                        <img src={Logo} alt="Logo" onClick={scrollToTop} />
                         <p>Learn  and  sound
                             like a real
                             spanish   speaker.</p>

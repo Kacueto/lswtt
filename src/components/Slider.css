@@ -107,6 +107,10 @@ input[type=radio] {
     padding-right: 0.5rem;
     cursor: pointer;
 }
+.card-1 button:hover {
+    background-color: #ffffff;
+    color: #AD1519;
+}
 .card-2 {
     background: #AD1519;
 }
@@ -150,6 +154,10 @@ input[type=radio] {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     cursor: pointer;
+}
+.card-2 button:hover {
+    background-color: #ffffff;
+    color: #AD1519;
 }
 
 .card-3 {
@@ -195,6 +203,10 @@ input[type=radio] {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     cursor: pointer;
+}
+.card-3 button:hover {
+    background-color: #ffffff;
+    color: #AD1519;
 }
 
 #item-1:checked ~ .cards #selector-1,

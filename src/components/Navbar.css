@@ -18,16 +18,25 @@
     align-items: center;
     z-index: 1000; /* Asegúrate de que el navbar esté por encima de otros elementos */
 }
-
-.Logo {
-    font-size: 1.5rem;
-    padding: 10px;
-    padding-left: 30px;
-    font-weight: bold;
-    color: #FABD00;
-    text-decoration: none;
+.navbar-brand{
     display: flex;
     align-items: center;
+    
+    
+}
+.navbar-brand p{
+    font-size: 1rem;
+    font-weight: 500;
+    
+    padding-left: 10px;
+}
+.Logo {
+    
+    padding-left: 30px;
+}
+.Logo img {
+    width: 70px;
+    height: 70px;
 }
 
 .navbar-menu {

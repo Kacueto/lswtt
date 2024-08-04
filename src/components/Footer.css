@@ -22,10 +22,15 @@
     width: 35%;
     height: 100%;
     display: flex;
-    padding-left: 10%;
+    padding-left: 8%;
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
+}
+.footer-content-top-left img{
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
 }
 .footer-content-top-left p{
     color: #ffffff;
@@ -91,7 +96,7 @@
     display: flex;
     padding-top: 6rem;
     padding-left:7rem;
-    color: #000000;
+    color: #ffffff;
 
     
     

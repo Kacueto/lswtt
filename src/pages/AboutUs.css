@@ -69,7 +69,7 @@
 }
 .aboutus-container{
     width: 43rem;
-    height: 54rem;
+    height: 50rem;
     background-color: #ffffff;
     background-size: cover;
     background-position: center;
@@ -89,7 +89,7 @@
 }
 .aboutus-container p{
     font-size: 1.5rem;
-    color: #AD1519;
-    padding: 2.5rem;
-    
+    color: #000000;
+    text-align: justify;
+    margin: 1rem 0;
 }

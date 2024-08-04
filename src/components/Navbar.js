@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import useScrollToTop from '../hooks/useScrollToTop';
 import './Navbar.css';
+import Logo from '../utils/logo.png';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -15,8 +16,9 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar-brand">
                 <Link to="/" className="Logo">
-                    <h1 onClick={scrollToTop}>Logo</h1>
+                    <img src={Logo} alt="Logo" onClick={scrollToTop}/>
                 </Link>
+                <p>Spanish Club With The Twins</p>
             </div>
             <div className={`navbar-menu ${isOpen ? 'is-active' : ''}`}>
                 

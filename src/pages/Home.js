@@ -3,6 +3,7 @@ import React from 'react';
 import Slider from '../components/Slider';
 import Footer from '../components/Footer';
 import twins3 from '../utils/TWINS/twins3.png';
+import twins2 from '../utils/TWINS/twins2.png';
 
 import './Home.css';
 
@@ -12,14 +13,15 @@ const Home = () => {
             <div className="container">
                 <div className="content-container">
                     <h2>SPANISH CLUB WITH THE TWINS.</h2>
-                    <h1 style={{ color: '#AD1519' }}>Learn&nbsp;&nbsp;and&nbsp;&nbsp;sound</h1>
-                    <h1 style={{ color: '#FABD00' }}> like a real</h1>
-                    <h1 style={{ color: '#AD1519' }}>spanish&nbsp;&nbsp;&nbsp;speaker.</h1>
+                    <div className="text-container">
+                        <h1 style={{ color: '#AD1519' }}>Learn and sound</h1>
+                        <h1 style={{ color: '#FABD00'}}>like a real</h1>
+                        <h1 style={{ color: '#AD1519' }}>spanish speaker.</h1>
+                    </div>
                     <button>RESOURCES</button>
-
                 </div>
                 <div className="image-container">
-                    <img src={twins3} alt="twins" />
+                    <img src={twins2} alt="twins" />
                 </div>
             </div>
             <div className="resources-container">
@@ -33,6 +35,9 @@ const Home = () => {
                     <h1 >Podcast</h1>
                 </div>
                 <div className='container'>
+                <div className="image-container">
+                    <img src={twins3} alt="twins" />
+                </div>
                     <div className='podcast-content'>
                         <h1>WELCOME TO OUR PODCAST</h1>
                         <p>Listen to our podcast and learn Spanish with us. We will teach you how to speak Spanish like a native speaker. Lets Go!!!</p>
@@ -56,10 +61,10 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-           
-                <Footer/>
-            
-            
+
+            <Footer />
+
+
         </div>
     );
 }
