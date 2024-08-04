@@ -15,7 +15,7 @@ const Home = () => {
                     <h2>SPANISH CLUB WITH THE TWINS.</h2>
                     <div className="text-container">
                         <h1 style={{ color: '#AD1519' }}>Learn and sound</h1>
-                        <h1 style={{ color: '#FABD00'}}>like a real</h1>
+                        <h1 style={{ color: '#FABD00' }}>like a real</h1>
                         <h1 style={{ color: '#AD1519' }}>spanish speaker.</h1>
                     </div>
                     <button>RESOURCES</button>
@@ -25,19 +25,18 @@ const Home = () => {
                 </div>
             </div>
             <div className="resources-container">
-                <div className="title-container">
-                    <h1 >Resources</h1>
-                </div>
                 <Slider />
             </div>
             <div className="podcast-container">
-                <div className="title-container">
-                    <h1 >Podcast</h1>
+                <div className="title">
+                    <h2 style={{ paddingBottom: '4rem', fontSize: '2rem' }}>
+                        <span>/</span>Podcast
+                    </h2>
                 </div>
                 <div className='container'>
-                <div className="image-container">
-                    <img src={twins3} alt="twins" />
-                </div>
+                    <div className="image-container">
+                        <img src={twins3} alt="twins" />
+                    </div>
                     <div className='podcast-content'>
                         <h1>WELCOME TO OUR PODCAST</h1>
                         <p>Listen to our podcast and learn Spanish with us. We will teach you how to speak Spanish like a native speaker. Lets Go!!!</p>
@@ -46,8 +45,10 @@ const Home = () => {
                 </div>
             </div>
             <div className='contactUs-container'>
-                <div className='title-container'>
-                    <h1>Contact Us</h1>
+                <div className="title">
+                    <h2 style={{ padding: '4rem', fontSize: '2rem' }}>
+                        <span>/</span>Contact Us
+                    </h2>
                 </div>
                 <div className='imagecontactUs-container'>
                     <div className='contactUs-content'>
