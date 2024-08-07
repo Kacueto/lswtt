@@ -4,26 +4,29 @@ const Donations = () => {
     return (
         <div className="donations-container">
             <section className="donations-container1">
-                <h1>Donations</h1>
+                <h1>Donaciones</h1>
                 <div className="donations-container1-content">
-                    <h3>Help us teach you</h3>
-                    <p>We are very happy to announce the opening of the project, which will be supported by subscribing to Patreon and with the help of voluntary donations from each of the people who want to support us and make this channel grow. Due to our current jobs, this initiative has started as a part-time job. However, our hope is that this project becomes our full-time job in the future with the aim of continuing to create exclusive content and thus help your learning process.</p>
+                    
+                    <p>Estamos muy felices de anunciar la apertura del proyecto, el cual se sustentará por medio de la suscripción al Patreon y con la ayuda de las donaciones voluntarias de cada uno de las personas que quieran apoyarnos y hacer crecer este canal. Debido a nuestros oficios actuales, esta iniciativa ha comenzado como un trabajo de medio tiempo. Sin embargo, nuestro deseo es que este proyecto en el futuro se convierta en nuestro trabajo a tiempo completo con el objetivo seguir montando contenido exclusivo y así ayudar su proceso de aprendizaje.</p>
                 </div>
             </section>
             <section className="donations-container2">
-                <h2>Easy donations</h2>
-                <div className="donations-container2-paypal"> 
-                    <p>To help us with paypal use this directs links</p>
+                <h1> ¿Como puedo ayudar a crecer este canal? </h1>
+
+                <div className="donations-container2-paypal">
+                    <h3>Aportes Voluntarios</h3>
+                    <p> Si haz encontado el contenido de este canal de mucha utilidad, te dejamos el link de paypal para que realices una donacion voluntaria.</p>
                     <ul>
                         <li>5$</li>
                         <li>10$</li>
                         <li>20$</li>
-                        <li>50$</li>
+                        <li>Other</li>
                     </ul>
                 </div>
-                <h2>Patreon subscription</h2>
+
                 <div className="donations-container2-patreon">
-                    <p>On Patreon, you can subscribe for additional content and exclusive perks, with tiers ranging from $3 to $10 per month. It starts with access to video transcripts, unreleased episodes, a word dictionary, and a Telegram group. As you level up, you'll receive more exclusive content, including podcasts with transcripts and PDF lessons with exercises. Click the button below to visit our Patreon page, where you can read the description of each level and choose the one that best suits your needs. Once you've selected your tier, you'll be able to create an account on Patreon and choose between PayPal or credit card as your payment method.</p>
+                    <h3>Hacerte miembro de nuestro patreon</h3>
+                    <p>Por ser miembro de nuestro patreon, no solo recibiras contenido de nuestras lecciones, podcasts y videos, sino que tambien haras parte del crecimiento y desarrollo de esta increible iniciativa</p>
                     <button>Patreon</button>
                 </div>
             </section>
