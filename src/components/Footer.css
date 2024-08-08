@@ -2,12 +2,12 @@
     height: 26rem;
 }
 .footer-container{
-    width: 100%;
+    width: 99%;
     height: 25rem;
     background-color: #AD1519;
     background-size: cover;
     background-position: center;
-    
+    margin-left: 0.5%;
     border-radius: 30px;
     
     

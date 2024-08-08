@@ -3,7 +3,7 @@ import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
 import data from '../utils/data';
 import './Slider.css';
 function App() {
-    const [people, setPeople] = useState(data)
+    const [people] = useState(data)
     const [index, setIndex] = useState(0)
 
     useEffect(() => {
